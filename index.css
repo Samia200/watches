@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.home{
+    display: block;
+    width: 100vw;
+    height: 120vh;
+}
+.nav{
+    margin-left: 5%;
+    padding: 30px 0 30px 3%;
+    border-bottom: solid 2px rgb(183, 154, 93)  ;
+    border-radius: 2px;
+    width: 89vw;
+    float: left;
+}
+.nav h1{
+    display: inline-block;
+   position: absolute;
+    color: white;
+    left: 43%;
+    top: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+.nav i{
+    color: rgb(183, 154, 93);
+    margin-right: 90%;
+}
+/** nav end*/
+.container{
+    position: absolute;
+    width: 100%;
+    top: 15%;
+}
+.container h1{
+    position: relative;
+    color: rgb(183, 154, 93);
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+}
+.text-side{
+position: absolute;
+margin: 10% ;
+}
+.text-side h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom:15% ;
+
+}
+.text-side p{
+    color: rgb(183, 154, 93);
+    margin-left: 25px;
+    font-size: 13px;
+
+}
+span{
+    top:  81px;
+    position: absolute;
+    margin-left: 20px;
+    font-size: 80px;
+    line-height:1px;
+}
+.container img{
+    position: absolute;
+    display: inline-block;
+    width: 850px;
+    margin-left: 22%;
+    z-index: -100;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    display: inline-block;
+    border-bottom: rgba(183, 155, 93, 0.671) 2px solid;
+    width: 100px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.line:hover{
+    border-bottom: rgb(183, 155, 93) 3px solid;
+
+}
+.lines{
+    position: relative;
+    margin-top: 42%;
+    display: flex;
+  justify-content: center;
+}
+/*------------------- home section end-------------------*/
+
+.info{
+    position: relative;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+.info-container{
+    position: relative;
+    height: 82%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(183, 154, 93);
+    margin-left: 20%;
+}
+.right-col  img{
+position: absolute;
+right: 0;
+bottom: -20px;
+width: 498px;
+z-index: -100;
+}
+
+.info-text{
+    flex-basis: 61%;
+    padding: 1% 0% 0;
+    margin-left: -30%;
+}
+.info-text h1{
+    margin-bottom: 40px;
+    color: rgb(183, 155, 93);
+}
+.info-text p{
+    color: rgb(136, 104, 35);
+    width: 500px;
+    
+}
+.right-col{
+    
+    flex-basis: 100%;
+    position: absolute;
+    padding: 33% 23%;
+    left: 57%;
+}
+/*********** info section end*************/
+.men-women{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.men{
+    margin: 0 10%;
+    display: inline-block;
+}
+.men p{
+    color: rgb(183, 155, 93);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+.men img{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+}
+.women{
+   margin-top: 20%;
+    display: inline-block;
+}
+.women p{
+    color: rgb(183, 155, 93);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+.women img{
+    height: 250px;
+    border-radius: 10px;
+}
+/************** footer ****************/
+.footer{
+    height: 20vh;
+    border-top: rgb(183, 155, 93) 2px solid;
+   text-align: center;
+    letter-spacing: 20px;
+}
+.footer ul li{
+    margin-top: 25px;
+cursor: pointer;
+    letter-spacing: 2px;
+    color: rgb(183, 155, 93);
+    display: inline-block;
+}
+.footer i{
+margin-top: 20px;
+cursor: pointer;
+    color: rgb(183, 155, 93);
+}
